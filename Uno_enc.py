@@ -146,7 +146,7 @@ def approval():
 
   uuid = str(os.geteuid())+"DS"+str(os.geteuid())
 
-  id = "UNO-"+"".join(uuid)
+  id = "PLONG-"+"".join(uuid)
 
   os.system('clear')
 
@@ -160,7 +160,7 @@ def approval():
 
   try:
 
-    httpCaht = requests.get("https://github.com/Joshhi1/paid-/blob/main/paid.txt").text
+    httpCaht = requests.get("https://github.com/Joshhi1/uno-nico/blob/main/private.txt").text
 
     if id in httpCaht:
 
